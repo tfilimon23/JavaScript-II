@@ -59,18 +59,18 @@ const items = ['Pencil', 'Notebook', 'yo-yo', 'Gum'];
 //   console.log(product)
 // });
 
-function contains(item, list, cb) {
-  for (let i=0; i<arr.length; i++){
-    if (arr[i] === arr[i])
-    return cb(true);
-  }
-  // contains checks if an item is present inside of the given array/list.
-  // Pass true to the callback if it is, otherwise pass false.
-}
+// function contains(item, list, cb) {
+//   for (let i=0; i<arr.length; i++){
+//     if (arr[i] === arr[i])
+//     return cb(true);
+//   }
+//   // contains checks if an item is present inside of the given array/list.
+//   // Pass true to the callback if it is, otherwise pass false.
+// }
 
-contains(items, function(present){
-  console.log(present)
-});
+// contains(items, function(present){
+//   console.log(present)
+// });
 
 /* STRETCH PROBLEM */
 
